@@ -7,4 +7,5 @@ public class ExerciseParams : MonoBehaviour
     public string exerciseName;
     public string exerciseDesc;
     public string[] requirements;
+    public bool completed;
 }

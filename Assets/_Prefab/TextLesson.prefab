@@ -9,50 +9,46 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1687216854327096}
+  m_RootGameObject: {fileID: 1422771491470798}
   m_IsPrefabAsset: 1
---- !u!1 &1687216854327096
+--- !u!1 &1422771491470798
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4389979186082354}
-  - component: {fileID: 114120170876129810}
+  - component: {fileID: 4577002259067252}
+  - component: {fileID: 114586387268319210}
   m_Layer: 0
-  m_Name: TestExercise
+  m_Name: TestLesson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4389979186082354
+--- !u!4 &4577002259067252
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687216854327096}
+  m_GameObject: {fileID: 1422771491470798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 364.13184, y: 219.21288, z: -9.25}
+  m_LocalPosition: {x: 309.5967, y: 202.72511, z: -9.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114120170876129810
+--- !u!114 &114586387268319210
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1687216854327096}
+  m_GameObject: {fileID: 1422771491470798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3870d89370f16248a2fb1102f31428c, type: 3}
+  m_Script: {fileID: 11500000, guid: 82c4dba2e883a114aab5fc34cf493dd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  exerciseName: TestName
-  exerciseDesc: gosaidiojsg soijgiosdgn sogisadoigns dgoisag
-  requirements:
-  - Vektorregning 2
-  completed: 0
+  lessonName: TestLesson1
