@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4577002259067252}
   - component: {fileID: 114586387268319210}
   m_Layer: 0
-  m_Name: TestLesson
+  m_Name: TextLesson
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

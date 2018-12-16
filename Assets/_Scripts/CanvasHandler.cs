@@ -70,10 +70,24 @@ public class CanvasHandler : MonoBehaviour {
         requirementsText.GetComponent<Text>().text = s;
     }
 
-    public void AddLessonToDB()
+    public void AddLessonToDB(string lesson)
     {
-        string test = "Test1";
+        LessonDB.completedLessons.Add(lesson);
+    }
 
-        LessonDB.completedLessons.Add(test);
+    public void StartExercise(GameObject gameObject)
+    {
+        if(LessonDB.completedLessons.Contains("Vektorregning 2"))
+        {
+            gameObject.SetActive(true);
+        }
+    }
+
+    public void StartExerciseCloseCanvas(GameObject gameObject)
+    {
+        if (LessonDB.completedLessons.Contains("Vektorregning 2"))
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -52,7 +52,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   exerciseName: TestName
-  exerciseDesc: gosaidiojsg soijgiosdgn sogisadoigns dgoisag
+  exerciseDesc: "Hr. Marsmand skal levere marssten til sin ven. Han v\xE6lger at k\xF8re
+    i sin smarte marsbil, men ved ikke hvilken rute af to ruter, han skal v\xE6lge.
+    Hr. Marsmand har derfor beskrevet de to ruter med vektorer. Hvordan kan Hr. Marsmand
+    udregne, hvilken rute er den korteste? :)"
   requirements:
   - Vektorregning 2
   completed: 0
